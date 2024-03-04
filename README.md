@@ -4,4 +4,4 @@ Unix-like shell that allows a user to use nineteen different commands to manipul
 
 Crafted using Agile and Scrum methodologies.
 
-_Developed in Oct-Nov 2020._
+_Developed Oct-Nov 2020._
