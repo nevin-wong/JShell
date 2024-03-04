@@ -1,0 +1,10 @@
+What did I work on in the last three days?
+    - finished modification of Manual class (only takes in one parameter)
+    - finished implementation of Tree command
+
+What do I plan to work in the next three days?
+    - use JUnit testing to ensure full functionality of commands
+    - ensure Manual, Tree and any other commands for Sprint 1 are free of any bugs
+
+Am I blocked on anything?
+    - how to use JUnit to test printing?

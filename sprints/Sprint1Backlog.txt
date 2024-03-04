@@ -1,0 +1,52 @@
+October 21 to October 27
+
+
+User Stories from Product Backlog that we will address in this sprint:
+a) As a user, I want to access a shell that's connected to a storage system.
+b) As a user, I want the shell to be able to interpret my messages so it can manipulate the storage system.
+c) As a user, I want the shell to be able to print messages to the screen.
+d) As a user, I want to exit the shell when I am finished with it.
+e) As a user, I want to create new directories in storage, so I may use them for storage in the future.
+f) As a user, I want to change the current directory of the shell to another, so I may work in the directory I desire.
+g) As a user, I want the shell to print the contents of the current directory.
+h) As a user, I want the shell to print the current directory, so I know where I'm working in.
+
+Specific tasks to be accomplished:
+a-1. (Shell) Write base code for Shell class, which should have a root directory as storage
+b-1. (Interpreter) Write base code for Interpreter class
+b-2. (Interpreter) Parse user input for keywords
+b-3. (Interpreter) Pass parsed user commands to ShellCommand
+b-4. (ShellCommand) Write base code for ShellCommand class
+b-5. (Shell) Have shell continually prompt user for input
+c-1. (Shell) Have a method of the shell that allows it to print specific lines
+c-2. (PrintCommand) Write base code for PrintCommand
+c-3. (PrintCommand) Have PrintCommand be able to feed the Shell certain lines
+d-1. (Exit) Write base code for Exit class
+d-2. (Exit) Have Exit tell the shell to terminate
+d-3. (Shell) Be able to terminate when prompted
+e-1. (Directory) Write base code for Directory class
+e-2. (MakeDirectory) Write base code for MakeDirectory class
+e-3. (MakeDirectory) Have MakeDirectory make a new directory in the shell's storage system
+f-1. (ChangeDirectory) Write base code for ChangeCurrentDirectory class
+f-2. (ChangeDirectory) Returns updated working directory to Shell
+f-3. (Shell) Have shell store current working directory
+f-4. (Shell) Be able to perform a change in directory
+g-1. (ListFiles) Write base code for ListFiles class
+g-2. (ListFiles) Have ListFiles tell the shell the files of the current directory
+g-3: (File) Create base code for file class
+h-1. (PrintCurrentDirectory) Write base code for PrintCurrentDirectory class
+h-2. (PrintCurrentDirectory) Have PrintCurrentDirectory tell the shell the current directory
+
+These tasks are assigned as follows:
+
+User: Collin Chan
+Tasks: e-1, e-2, e-3, f-1, f-2, f-3, f-4
+
+User: Jeff He
+Tasks: g-1, g-2, g-3, h-1, h-2
+
+User: Nevin Wong
+Tasks: a-1, b-1, b-2, b-3, b-4, b-5
+
+User: David Huynh
+Tasks: c-1, c-2, c-3, d-1, d-2, d-3

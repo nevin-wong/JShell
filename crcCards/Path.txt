@@ -1,0 +1,12 @@
+Class name: Path
+Parent class (if any):
+Subclasses (if any): 
+
+Responsibilities:
+* Keep track of a collection of Directories, before one StorageUnit that, in succession, represent a relative or absolute path from Storage's root to a specific StorageUnit
+* Distinguish between an absolute or relative path
+* Be able to determine if what it represents actually corresponds to a valid path to a StorageUnit in Storage
+
+Collaborators:
+* StorageUnit
+* Directory

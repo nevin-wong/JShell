@@ -1,0 +1,14 @@
+What did I work on in the last three days?
+    - finished code in Interpreter class
+    - had Interpreter strip and parse commands JShell passed to it
+    - had Interpreter interpret the first argument of user command and call the appropriate ShellCommand
+    - finished ShellCommand class which is the superclass of all commands, and added a string for its manual to be used for the man class
+
+What do I plan to work in the next three days?
+    - as the Scrum Master, develop a detailed sprint backlog for the second sprint
+    - have the Interpreter use a HashMap instead of a slew of if and else statements to call commands for cleaner code
+    - write various test cases to ensure the functionality of the shell
+
+Am I blocked on anything?
+    - what to do with the test folder, as we have not used unit testing yet? (will probably ask in office hours)
+    - how will printing errors be handled, where shall the error messages be stored, in the PrintError class or the individual ShellCommand classes?

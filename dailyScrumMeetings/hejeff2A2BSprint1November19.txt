@@ -1,0 +1,11 @@
+What did I work on in the last three days?
+    - finished remove class
+	- modified path class to work better if path just the root directory
+
+What do I plan to work in the next three days?
+	- modifying classes to return a string rather than printing for testing
+	- move and copy
+    - using JUnit on remove
+	- JUnit on move and copy if time permits
+Am I blocked on anything?
+    - nothing

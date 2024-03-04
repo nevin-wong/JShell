@@ -1,0 +1,9 @@
+What did I work on in the last three days?
+    - Worked on echo with relative and absolute pathing
+    - Tested echo and fixed bugs that occurred in echo
+    - Tested pop and push
+What do I plan to work in the next three days?
+    - Assignment 2B?
+
+Am I blocked on anything?
+    -

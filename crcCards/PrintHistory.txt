@@ -1,0 +1,11 @@
+Class name: PrintHistory
+Parent class (if any): ShellCommand
+Subclasses (if any):
+
+Responsibilities:
+* Send to StdOut a specific amount of the recent commands the user's typed in, or all of them
+* Report errors to be printed by the shell
+* Provide a manual for how to use this class
+
+Collaborators:
+* StdOut

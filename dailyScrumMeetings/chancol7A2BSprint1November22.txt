@@ -1,0 +1,9 @@
+What did I work on in the last three days?
+    - completed Search.java
+    - accounted for all possible errors in Search.java
+
+What do I plan to work in the next three days?
+    - start Sprint2 tasks
+
+Am I blocked on anything?
+    - nothing at the moment

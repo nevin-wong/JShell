@@ -1,0 +1,11 @@
+What did I work on in the last three days?
+    - Worked on echo functionality with relative pathing
+
+What do I plan to work in the next three days?
+    - Work on Echo functionality relative and absolute pathing
+    - Test Echo
+    - Test Push and Pop
+
+
+Am I blocked on anything?
+    - Not sure how to implement Echo with relative/absolute pathing

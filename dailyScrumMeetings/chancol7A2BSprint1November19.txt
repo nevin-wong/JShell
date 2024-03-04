@@ -1,0 +1,10 @@
+What did I work on in the last three days?
+    - finished modifications to the MakeDirectory class (now accepts at least 1 path)
+    - created base code for Search class
+
+What do I plan to work in the next three days?
+    - use JUnit testing to ensure full functionality for MakeDirectory and Search class
+    - finish implementation of Search class
+
+Am I blocked on anything?
+    - not at the moment

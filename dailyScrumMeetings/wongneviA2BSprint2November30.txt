@@ -1,0 +1,12 @@
+What did I work on in the last three days?
+    - Ensured entire project is Javadocumented
+    - Thorough JUnit testing for JShell, Interpreter, Man, Tree, Pushd, File, Directory
+    - Incorporated Iterator design into CommandHistory and also directory
+    - Ensured this JShell is fully functional as per the customer's specifications
+
+What do I plan to work in the next three days?
+    - Nothing for A2b because I literally can't! 
+    - But probably study for the B07 quiz work, complete the mock quiz and work on tasks from other courses
+
+Am I blocked on anything?
+    - Hope not!

@@ -1,0 +1,12 @@
+What did I work on in the last three days?
+    - Added exit class and code for exit class
+    - Added 'exit' keyword to be recognized by interpreter
+    - Made interpreter call the exit function allowing the shell to exit
+    - Added ability to print messages to shell through interpreter calls
+
+What do I plan to work in the next three days?
+    - Will probably need to split up some work with other members because i'm done my sprint work
+    -
+
+Am I blocked on anything?
+    - nothing, but lacking things to do so will probably split up work with other members

@@ -1,0 +1,15 @@
+Class name: Search
+Parent class (if any): ShellCommand
+Subclasses (if any): 
+
+Responsibilities:
+* Search given Directories recursively for a File name
+* Search given Directories recursively for a Directory name
+* Send to StdOut the search's results
+* Provide a manual for how to use this class
+* Report errors to be printed by the shell
+
+Collaborators:
+* Storage
+* StorageUnit
+* StdOut

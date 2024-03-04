@@ -1,0 +1,10 @@
+What did I work on in the last three days?
+    - finished mv class for some cases
+	- redid code in path, ls and remove to make code shorter, more robust and to make testing easier
+
+What do I plan to work in the next three days?
+	- mv for all cases
+	- copy 
+	- lots of JUnit testing
+Am I blocked on anything?
+    - is removing a StorageUnit from the directorys arraylist sufficient for removing it from memory?

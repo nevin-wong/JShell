@@ -1,0 +1,21 @@
+Class name: JShell
+Parent class (if any): 
+Subclasses (if any): 
+
+Responsibilities:
+* Provide the user an interface in which to enter commands to modify the file system
+* Send entered commands for Interpreter to interpret
+* Has a specific root Directory area the user works
+* Keep track of a current Directory somewhere in root
+* Keep track of a directory stack
+* Keep track of all the commands the user has typed in
+* Start up when prompted
+* Exit when prompted
+* Print specific lines to the interface when prompted
+* Report an error when only whitespace is input by the user
+
+Collaborators:
+* Interpreter
+* Storage
+* Directory
+* PrintError

@@ -1,0 +1,11 @@
+a) What did I work on in the last three days?
+    - finished Directory
+    - finished ChangeDirectory
+    - finished MakeDirectory
+
+b) What do I plan to work in the next three days?
+    - plan for sprint 2
+    - work on sprint 2
+
+c) Am I blocked on anything?
+    - Not at the moment

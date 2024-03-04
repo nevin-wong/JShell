@@ -1,0 +1,12 @@
+Class name: Move
+Parent class (if any): ShellCommand
+Subclasses (if any): 
+
+Responsiblities:
+* Move a StorageUnit to a new Directory in Storage
+* Overwrite and create a new StorageUnit in Storage
+* Provide a manual for how to use this class
+
+Collaborators:
+* StorageUnit
+* Storage

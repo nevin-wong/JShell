@@ -1,0 +1,13 @@
+What did I work on in the last three days?
+    - Modified the Interpreter to implement redirection
+    - Interpreter checks whether the command produces StdOut before making the new file
+    - New method for all commands to determine whether or not it produces StdOut
+
+What do I plan to work in the next three days?
+    - Make sure project is being thoroughly Javadocumented
+    - Very thorough JUnit testing for JShell, Interpreter, Man, Tree, Pushd, StorageUnit, File, Directory, and more if needed
+    - Probably incorporate Iterator Design Pattern to the ArrayList of history
+    - Commit the final sprint daily after developing and testing that this JShell is fully functional as per the customer's specifications
+
+Am I blocked on anything?
+    - how to use Mock Objects the most efficiently and effectively

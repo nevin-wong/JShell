@@ -1,0 +1,13 @@
+a) What did I work on in the last three days?
+    - wrote down basic algorithm for ConcatenateFile methods
+    - created base code for hasForbidChar() in StorageUnit
+    - wrote down basic algorithm for hasForbidChar()
+
+b) What do I plan to work in the next three days?
+    - work on ConcatenateFile methods
+    - complete hasForbidChar() in StorageUnit
+
+c) Am I blocked on anything?
+    - checking for any forbidden characters in a string without using an if statement to check for each forbidden character
+      - since this would exceed the 100 character per line convention
+      - and if i separate it into multiple if statements, it will be not as readable

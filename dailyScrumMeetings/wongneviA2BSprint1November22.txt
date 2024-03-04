@@ -1,0 +1,12 @@
+What did I work on in the last three days?
+    - Created JUnit test files for Manual and Tree
+    - Created new StdOut class for easy redirection and also testing
+    - Implemented the use of StdOut to all classes
+    - Wrote manuals for the new commands
+
+What do I plan to work in the next three days?
+    - Have the Interpreter interpret when the user wants to overwrite and append to a file and call the commands accordingly
+    - Make sure project is being thoroughly Javadocumented
+
+Am I blocked on anything?
+    - how to incorporate Iterator design pattern, also better to do it earlier in case stuff needs re-factoring

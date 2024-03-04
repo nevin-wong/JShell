@@ -1,0 +1,12 @@
+Class name: StdOut
+Parent class (if any): ShellCommand
+Subclasses (if any): 
+
+Responsibilities:
+* Connect to a either a JShell or a File in Storage
+* If it's a JShell, send given messages for the JShell to print to its command line
+* If it's a File, either overwrite or append to the file given messages
+
+Collaborators:
+* JShell
+* File

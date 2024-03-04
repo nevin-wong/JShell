@@ -1,0 +1,5 @@
+a) I worked on creating the base code for the file class
+
+b) I plan to update the File CRC card to include more responsibilties as well as start the ListFiles Class
+
+c) Not blocked on anything yet, but thats likely since I haven't put much work in due to the B36 term test

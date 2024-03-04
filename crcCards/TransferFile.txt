@@ -1,0 +1,11 @@
+Class name: TransferFile
+Parent class (if any): ShellCommand
+Subclasses (if any): 
+
+Responsibilities:
+* Provide validity checking for Copy and Move
+* Report errors to be printed by the shell
+
+Collaborators:
+* StorageUnit
+* Storage

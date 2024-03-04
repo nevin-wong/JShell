@@ -1,0 +1,13 @@
+Class name: ChangeDirectory
+Parent class (if any): ShellCommand
+Subclasses (if any): 
+
+Responsibilities:
+* Report errors if user tries to change to forbidden directories
+* Change the current directory of JShell to the user-specified one 
+* Provide a manual for how to use this class
+
+Collaborators:
+* JShell
+* Directory
+* Path

@@ -1,0 +1,12 @@
+What did I work on in the last three days?
+    - made the majority of JShell methods needed for this Sprint
+    - made base code for Interpreter class
+
+What do I plan to work in the next three days?
+    - finish majority of Interpreter class
+    - have Interpreter parse the user commands JShell passes to it into individual words
+    - have Interpreter interpret the first word of the user input and pass it to the appropriate subclass of ShellCommand
+    - start base code for ShellCommand class which all other command classes will inherit
+
+Am I blocked on anything?
+    - what will all command classes be in common (methods, private variables, etc) that will be in the ShellCommand class?

@@ -1,0 +1,12 @@
+Class name: Echo
+Parent class (if any): 
+Subclasses (if any): 
+
+Responsibilities:
+* Send to StdOut a string to its command line
+* Prompt error if file is inaccessible
+* Provide a manual for how to use this class
+
+Collaborators:
+* StdOut
+* Path

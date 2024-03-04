@@ -1,0 +1,9 @@
+What did I work on in the last three days?
+    - Added base code and base parameter parser for echo class
+    - Tested echo-ing only a string to shell
+
+What do I plan to work in the next three days?
+    - Work on Echo functionality for appending and overwriting files
+
+Am I blocked on anything?
+    - none at the moment

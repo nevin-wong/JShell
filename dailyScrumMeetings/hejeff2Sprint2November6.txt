@@ -1,0 +1,9 @@
+a) What did I work on in the last three days?
+    - More debugging of ls
+	- Fixed ls and pwd to work with the new name of the root dir (old name was 'root' new is '/')
+
+b) What do I plan to work in the next three days?
+    - Working on pop dir from stack
+
+c) Am I blocked on anything?
+    - No

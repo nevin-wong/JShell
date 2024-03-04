@@ -1,0 +1,16 @@
+User Stories                                                                                                                                                                Time Estimate
+
+As a user, I want the shell to print error messages whenever I cannot perform a desired task so I know what went wrong.                                                     4 days
+As a user, I want to delete a specific directory in storage, and everything inside it, so I can remove a directory I no longer want.                                        2 days
+As a user, I want to create any number of new directories in storage at a time, so I may use them for storage in the future.                                                2 days
+As a user, I want to the shell to list all the contents of any subdirectory of a specific directory, so I know each and every file and folder that lives in this directory. 3 days
+As a user, I want to move a specific file or directory in storage to a new directory in storage, so I may move content around.                                              2 days
+As a user, I want to retrieve a file at a specific URL and add it to the current directory, so I can add a file from the web to my storage system.                          3 days
+As a user, I want to print to the shell documentation for a only a single certain command, so I know how to use it.                                                         1 day
+As a user, I want to save the entire state of my JShell onto my computer, so I may boot it back up if I want to use it again.                                               2 days
+As a user, I want to load a previous version of JShell back up, so I can continue working where I left off.                                                                 2 days
+As a user, I want to search (in a number of given paths) for a file with a specific name and print where they are to the shell, so I know if they exist and where.          2 days
+As a user, I want to search (in a number of given paths) for a directory with a specific name and print where they are to the shell, so I know if they exist and where.     2 days
+As a user, I want to be able to display the entire storage system as a tree on the shell.                                                                                   3 days
+As a user, I want any command that is able to print content to the shell to instead, overwrite a certain file in the storage system with what it would have printed.        2 days
+As a user, I want any command that is able to print content to the shell to instead, append to a certain file in the storage system what it would have printed.             2 days

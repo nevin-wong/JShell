@@ -1,0 +1,10 @@
+What did I work on in the last three days?
+    - made sure all possible errors were accounted for, and ensured every error message was accurate
+    - Javadocumented all classes
+    - tested majority of commands to ensure full functionality
+
+What do I plan to work in the next three days?
+    - product backlog for A2b if it comes out in the next three days
+
+Am I blocked on anything?
+    - no

@@ -1,0 +1,9 @@
+a) What did I work on in the last three days?
+    - fixed issues with ChangeDirectory
+    - did some slight testing with ConcatenateFile
+
+b) What do I plan to work in the next three days?
+    - work on PrintHistory
+
+c) Am I blocked on anything?
+    - not at the moment

@@ -1,0 +1,10 @@
+Class name: Storage
+Parent class (if any):
+Subclasses (if any): 
+
+Responsibilities:
+* Create a root Directory when none exists
+* Hold a single root Directory
+
+Collaborators:
+* Directory

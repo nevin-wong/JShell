@@ -1,0 +1,9 @@
+a) What did I work on in the last three days?
+    - Finished Echo.java
+    - Tested Echo.java for any parsing bugs
+
+b) What do I plan to work in the next three days?
+    - Test Echo.java extensively and 3rd sprint
+
+c) Am I blocked on anything?
+    - Not at the moment

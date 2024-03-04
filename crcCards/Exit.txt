@@ -1,0 +1,11 @@
+Class name: Exit
+Parent class (if any): ShellCommand
+Subclasses (if any): 
+
+Responsibilities:
+* Tell the shell to terminate
+* Report any errors to be printed to the shell
+* Provide a manual for how to use this class
+
+Collaborators:
+* JShell

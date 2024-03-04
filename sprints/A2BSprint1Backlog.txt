@@ -1,0 +1,69 @@
+November 16 to November 22
+
+
+User Stories from Product Backlog that we will address in this sprint:
+a) As a user, I want to create any number of new directories in storage at a time, so I may use them for storage in the future.
+b) As a user, I want to the shell to list all the contents of any subdirectory of a specific directory, so I know each and every file and folder that lives in this directory.
+c) As a user, As a user, I want to delete a specific directory in storage, and everything inside it, so I can remove a directory I no longer want.
+d) As a user, I want to print to the shell documentation for a only a single certain command, so I know how to use it.
+e) As a user, I want to save the entire state of my JShell onto my computer, so I may boot it back up if I want to use it again.
+f) As a user, I want to load a previous version of JShell back up, so I can continue working where I left off.
+g) As a user, I want to display the entire storage system as a tree on the shell.
+h) As a user, I want to move a specific file or directory in storage to a new directory in storage, so I may move content around.
+i) As a user, I want to search (in a number of given paths) for a file with a specific name and print where they are to the shell, so I know if they exist and where.
+j) As a user, I want to search (in a number of given paths) for a directory with a specific name and print where they are to the shell, so I know if they exist and where.
+k) As a user, I want the shell to print error messages whenever I cannot perform a desired task so I know what went wrong.
+
+Specific tasks to be accomplished:
+a-1: (MakeDirectory) Modify MakeDirectory so that it takes any number of paths instead of only two
+a-2: (MakeDirectory) Use JUnit testing to ensure full functionality of MakeDirectory
+b-1: (ListFiles) Modify ListFiles using recursion so that it is able to list all contents of any child directory of the directory when -R is the second parameter
+b-2: (ListFiles) Use JUnit testing to ensure full functionality of ListFiles
+c-1: (Remove) Create base code for Remove class
+c-2: (Remove) Have remove be able to remove a given directory (and recursively, all of its contents) in storage system
+c-3: (Remove) Use JUnit testing to ensure full functionality of Remove
+d-1: (Manual) Modify Manual class to only take a single command
+d-2: (Manual) Use JUnit testing to ensure full functionality of Manual
+e-1: (SaveJShell) Create base code for SaveJShell class
+e-2: (SaveJShell) Have SaveJShell be able to save both the JShell instance and the Storage when the user wants
+e-3: (SaveJShell) Use JUnit testing to ensure full functionality of SaveJShell command
+f-1: (LoadJShell) Create base code for LoadJShell class
+f-2: (LoadJShell) Have LoadJShell be able to load a previous JShell instance and the same Storage when the user wants
+f-3: (LoadJShell) Disallow the user from calling LoadJShell when they have already typed ANY command in that's not loadJShell
+f-4: (LoadJShell) Test SaveJShell and LoadJShell out on own computer to see if it successfully works, i.e. everything from the history to the same storage system is stored and is the same
+f-5: (LoadJShell) Use JUnit testing to ensure full functionality of the LoadJShell command
+g-1: (Tree) Create base code for Tree class
+g-2: (Tree) Write code to display the entire storage system as a tree onto the shell using recursion
+g-3: (Tree) Use JUnit testing to ensure full functionality of Tree
+h-1: (Move) Create base code for Move class
+h-2: (Move) Write code that lets the Move command move a directory/file from one path to another (the latter must be a directory)
+h-3: (Copy) Create base code for Copy class
+h-4: (Copy) Write code just like Move, but don't delete the old directory/file
+h-5: (Copy) Use JUnit testing to ensure full functionality of both Move and Copy
+i-1: (Search) Create base code for Search class
+i-2: (Search) Have the Search command be able to search for a file with a specific name in a number of given paths
+j-1: (Search) Have the Search command be able to search for a directory with a specific name in a number of given paths
+j-2: (Search) Use JUnit testing to ensure full functionality of Search
+k-1: (PrintError) Think of all possible errors MakeDirectory can encounter, account for them in the class and write error messages
+k-2: (PrintError) Think of all possible errors ListFiles can encounter, account for them in the class and write error messages
+k-3: (PrintError) Think of all possible errors Remove can encounter, account for them in the class and write error messages
+k-4: (PrintError) Think of all possible errors Manual can encounter, account for them in the class and write error messages
+k-5: (PrintError) Think of all possible errors SaveJShell can encounter, account for them in the class and write error messages
+k-6: (PrintError) Think of all possible errors LoadJShell can encounter, account for them in the class and write error messages
+k-7: (PrintError) Think of all possible errors Tree can encounter, account for them in the class and write error messages
+k-8: (PrintError) Think of all possible errors Move or Copy can encounter, account for them in the class and write error messages
+k-9: (PrintError) Think of all possible errors Search can encounter, account fo them in the class and write error messages
+
+These tasks are assigned as follows:
+
+User: Collin Chan
+Tasks: a-1, a-2, k-1, i-1, i-2, j-1, j-2, k-9
+
+User: Jeff He
+Tasks: b-1, b-2, k-2, c-1, c-2, c-3, k-3, h-1, h-2, h-3, h-4, h-5, k-8
+
+User: Nevin Wong
+Tasks: d-1, d-2, k-4, g-1, g-2, g-3, k-7
+
+User: David Huynh
+Tasks: e-1, e-2, e-3, k-5, f-1, f-2, f-3, f-4, f-5, k-6

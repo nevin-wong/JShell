@@ -1,0 +1,12 @@
+Class name: ClientURL
+Parent class (if any): ShellCommand
+Subclasses (if any): 
+
+Responsibilities:
+* Retrieve the file at a given URL and add it to a JShell's current directory
+* Provide a manual for how to use this class
+* Report errors to be printed by the shell
+
+Collaborators:
+* JShell
+* Directory

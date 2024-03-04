@@ -1,0 +1,13 @@
+Class name: Interpreter
+Parent class (if any): 
+Subclasses (if any): 
+
+Responsibilities:
+* Interpret user commands and call the appropriate command with the interpreted user arguments to perform the desired outcomes
+* If the user wants the command's StdOut to be a specific file, tell the command this information and create this file in Storage
+* Report an error if a command is unrecognized
+
+Collaborators:
+* ShellCommand
+* File
+* PrintError

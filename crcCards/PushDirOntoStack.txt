@@ -1,0 +1,14 @@
+Class name: PushDirOntoStack
+Parent class (if any): ShellCommand
+Subclasses (if any): 
+
+Responsibilities:
+* Push a Directory onto JShell's directory stack
+* Change JShell's current directory to a different one
+* Report any errors that occur
+* Provide a manual for how to use this class
+
+Collaborators:
+* Directory
+* JShell
+* Path

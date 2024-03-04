@@ -1,0 +1,11 @@
+Class name: SaveJShell
+Parent class (if any): ShellCommand
+Subclasses (if any): 
+
+Responsibilities:
+* Save the entire state of the JShell onto the user's real file system
+* Provide a manual for how to use this class
+* Report errors to be printed by the shell
+
+Collaborators:
+* JShell

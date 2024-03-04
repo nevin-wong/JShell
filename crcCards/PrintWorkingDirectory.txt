@@ -1,0 +1,12 @@
+Class name: PrintWorkingDirectory
+Parent class (if any): ShellCommand
+Subclasses (if any):
+
+Responsibilities:
+* Get current working directory and send it to StdOut
+* Report errors to be printed by the shell
+* Provide a manual for how to use this class
+
+Collaborators:
+* StdOut
+* Path

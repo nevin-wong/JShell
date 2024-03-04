@@ -1,0 +1,10 @@
+a) What did I work on in the last three days?
+    - worked on Directory
+    - created base code for MakeDirectory and ChangeCurrentDirectory
+
+b) What do I plan to work in the next three days?
+    - finish Directory
+    - continue working on MakeDirectory and ChangeCurrentDirectory
+
+c) Am I blocked on anything?
+    - Not at the moment

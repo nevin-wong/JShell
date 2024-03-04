@@ -1,0 +1,10 @@
+What did I work on in the last three days?
+    - fully implemented ClientURL
+    - fixed ChangeDirectory and PrintHistory issues from A2A
+
+What do I plan to work in the next three days?
+    - Fix issues with Search
+    - Create JUnit test cases for all the classes I've worked on
+
+Am I blocked on anything?
+    - nothing at the moment

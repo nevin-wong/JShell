@@ -1,0 +1,10 @@
+Class name: PrintError
+Parent class (if any): PrintCommand
+Subclasses (if any): 
+
+Responsibilities:
+* Report error messages on the command line to a JShell
+* Report errors that were thrown by the OS to a JShell
+
+Collaborators:
+* JShell

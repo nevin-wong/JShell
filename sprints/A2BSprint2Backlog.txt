@@ -1,0 +1,62 @@
+November 23 to November 30
+
+
+User Stories from Product Backlog that we will address in this sprint:
+b) As a user, I want to the shell to list all the contents of any subdirectory of a specific directory, so I know each and every file and folder that lives in this directory.
+c) As a user, As a user, I want to delete a specific directory in storage, and everything inside it, so I can remove a directory I no longer want.
+d) As a user, I want to print to the shell documentation for a only a single certain command, so I know how to use it.
+e) As a user, I want to save the entire state of my JShell onto my computer, so I may boot it back up if I want to use it again.
+f) As a user, I want to load a previous version of JShell back up, so I can continue working where I left off.
+g) As a user, I want to display the entire storage system as a tree on the shell.
+h) As a user, I want to move a specific file or directory in storage to a new directory in storage, so I may move content around.
+i) As a user, I want to search (in a number of given paths) for a file with a specific name and print where they are to the shell, so I know if they exist and where.
+j) As a user, I want to search (in a number of given paths) for a directory with a specific name and print where they are to the shell, so I know if they exist and where.
+k) As a user, I want to retrieve a file at a specific URL and add it to the current directory, so I can add a file from the web to my storage system.
+l) As a user, I want any command that is able to print content to the shell to instead, overwrite a certain file in the storage system with what it would have printed.
+m) As a user, I want any command that is able to print content to the shell to instead, append to a certain file in the storage system what it would have printed.
+k) As a user, I want the shell to print error messages whenever I cannot perform a desired task so I know what went wrong.
+
+Specific tasks to be accomplished:
+a-1: (MakeDirectory) Use JUnit testing to ensure full functionality of MakeDirectory
+b-1: (ListFiles) Modify ListFiles using recursion so that it is able to list all contents of any child directory of the directory when -R is the second parameter
+b-2: (ListFiles) Use JUnit testing to ensure full functionality of ListFiles
+c-1: (Remove) Have remove be able to remove a given directory (and recursively, all of its contents) in storage system
+c-2: (Remove) Use JUnit testing to ensure full functionality of Remove
+e-1: (SaveJShell) Have SaveJShell be able to save both the JShell instance and the Storage when the user wants
+e-2: (SaveJShell) Use JUnit testing to ensure full functionality of SaveJShell command
+f-1: (LoadJShell) Have LoadJShell be able to load a previous JShell instance and the same Storage when the user wants
+f-2: (LoadJShell) Disallow the user from calling LoadJShell when they have already typed ANY command in that's not loadJShell
+f-3: (LoadJShell) Test SaveJShell and LoadJShell out on own computer to see if it successfully works, i.e. everything from the history to the same storage system is stored and is the same
+f-4: (LoadJShell) Use JUnit testing to ensure full functionality of the LoadJShell command
+h-1: (Move) Write code that lets the Move command move a directory/file from one path to another (the latter must be a directory)
+h-2: (Copy) Write code just like Move, but don't delete the old directory/file
+h-3: (Copy) Use JUnit testing to ensure full functionality of both Move and Copy
+j-1: (Search) Use JUnit testing to ensure full functionality of Search
+k-1: (ClientURL) Write code that has the ClientURL command retrieve the file at a given URL
+k-2: (ClientURL) When we get the name of the file, strip off the file extension and create a file with the same name in JShell's current directory (e.g. abbasiscool.txt becomes abbasiscool)
+l-1: (Interpreter) Modify the Interpreter to now look for >, and the filename after
+m-1: (Interpreter) Modify the Interpreter to now look for >>, and the filename after
+m-2: (Interpreter) Have the Interpreter call commands now with a specific StdOut destination, which can be the shell's command line, overwriting a file, or appending to a file
+n-1: (PrintError) Think of all possible errors ListFiles can encounter, account for them in the class and write error messages
+n-2: (PrintError) Think of all possible errors Remove can encounter, account for them in the class and write error messages
+n-3: (PrintError) Think of all possible errors Manual can encounter, account for them in the class and write error messages
+n-4: (PrintError) Think of all possible errors SaveJShell can encounter, account for them in the class and write error messages
+n-5: (PrintError) Think of all possible errors LoadJShell can encounter, account for them in the class and write error messages
+n-6: (PrintError) Think of all possible errors Move or Copy can encounter, account for them in the class and write error messages
+n-7: (PrintError) Think of all possible errors Search can encounter, account for them in the class and write error messages
+n-8: (PrintError) Think of all possible errors ClientIRL can encounter, account for them in the class and write error messages
+n-9: (PrintError) Think of all possible errors the Interpreter can encounter interpreting the user's desired output destinations, account for them and write error messages
+
+These tasks are assigned as follows:
+
+User: Collin Chan
+Tasks: a-1, j-1, k-1, k-2, n-8
+
+User: Jeff He
+Tasks: b-1, b-2, c-1, c-2, h-1, h-2, h-3
+
+User: Nevin Wong
+Tasks: l-1, m-1, m-2, n-9
+
+User: David Huynh
+Tasks: e-1, e-2, f-1, f-2, f-3, f-4

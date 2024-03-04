@@ -1,0 +1,10 @@
+a) What did I work on in the last three days?
+    - finished ConcatenateFile
+    - implemented hasForbidChar() in StorageUnit
+    - added call to hasForbidChar() in MakeDirectory
+
+b) What do I plan to work in the next three days?
+    - test ConcatenateFile extensively
+
+c) Am I blocked on anything?
+    - Not at the moment

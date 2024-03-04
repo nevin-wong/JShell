@@ -1,0 +1,12 @@
+What did I work on in the last three days?
+    - allowed Manual class to take in multiple parameters for multiple command manuals using a for loop
+    - finished writing getManual methods for all commands
+
+What do I plan to work in the next three days?
+    - somehow incorporate a HashMap so Interpreter and Manual won't have to use a slew of if and else statements to call commands
+    - after seeing Lab7, I was reminded that it was possible to make a static private variable, might switch getManual methods to just getManual strings
+    - finished PrintError class, inserted error messages in every class
+    - write the final sprint backlog for A2a
+
+Am I blocked on anything?
+    - are we correct to make all the methods of ShellCommands static, as commands are not necessarily objects, but tools

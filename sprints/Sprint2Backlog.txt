@@ -1,0 +1,55 @@
+October 28 to November 3
+
+
+User Stories from Product Backlog that we will address in this sprint:
+i) As a user, I want the shell to print the contents of a directory to a given path, so I know what files are in it.
+j) As a user, I want the shell to print error messages whenever I cannot perform a desired task so I know what went wrong.
+k) As a user, I want the shell to print documentation for certain commands, so I know how to use them.
+l) As a user, I want to be able to echo a string onto the shell.
+m) As a user, I want to be able to echo a string overwriting file in storage, to write files quickly.
+n) As a user, I want to be able to echo a string into the end of a file in storage, to append data to files quickly.
+o) As a user, I want to be able to display the contents of a certain file.
+p) As a user, I want to be able to display the contents of a certain file in storage concatenated with another file.
+
+Specific tasks to be accomplished:
+i-1: (ListFiles) Have this command be able to print contents of a directory given by an absolute path
+i-2: (ListFiles) Have this command be able to print contents of a directory given by a relative path
+i-3: (ListFiles) Test and use test cases to ensure full functionality of ListFiles command 
+j-1: (PrintError) Write base code for PrintError
+j-2: (PrintError) Write various error messages for all possible errors for all commands
+j-3: (StorageUnit) Write the CRC card for StorageUnit, the superclass of File and Directory
+j-4: (StorageUnit) Have a static method in StorageUnit that checks if a string has any forbidden characters, and call it before any file/directory is created to catch errors 
+k-1: (Manual) Write the CRC card for Manual class, another subclass of ShellCommand
+k-2: (Manual) Write manual strings in each ShellCommand (create each ShellCommand class if they don't exist yet)
+k-3: (Manual) Write base code for Manual class and have Manual print the manual variable the command the user desires
+k-4: (Manual) Test and use test cases to ensure full functionality of Manual command
+l-1: (Echo) Have Echo be able to echo a string the user types onto the shell
+l-2: (Echo) Test and use test cases to ensure full functionality of Echo-ing a string onto the shell
+m-2: (File) Create a method for File that allows a new file to be created in a given directory
+m-3: (Echo) Have Echo be able to create a file in the current directory using the method created in m-2
+m-4: (Echo) Test and use test cases to ensure full functionality of Echo-ing a string into a newly created file in the current directory 
+m-5: (File) Create a method for File that allows the contents of the file to be overwritten
+m-6: (Echo) Have Echo be able to overwrite an existing file in the current directory using the method created in m-5
+m-7: (Echo) Test and use test cases to ensure full functionality of Echo-ing a string to overwrite an existing file
+n-1: (File) Create a method for File that allows a string to be appended to the end of the contents of the File
+n-2: (Echo) Have Echo be able to echo a string into the end of a file's contents in the current directory using the method created in n-1
+n-3: (Echo) Test and use test cases to ensure full functionality og Echo-ing a string to append to a file
+o-1: (File) Create a method for File that gets its contents, i.e., a getter method
+o-2: (ConcatenateFile) Have ConcatenateFile use the method created in o-1 to print to the shell the contents of a specific file in the current directory
+o-3: (ConcatenateFile) Test and use test cases to ensure full functionality of using Concatenate to print the contents of a specific file
+p-1: (ConcatenateFile) Have ConcatenateFile use the method created in o-1 to print to the shell the contents of a specific file concatenated with another file in the current directory.
+p-2: (ConcatenateFile) Test and use test cases to ensure full functionality of using Concatenate to concatenating two files and printing them
+
+These tasks are assigned as follows:
+
+User: Collin Chan
+Tasks: o-2, o-3, p-1, p-2, j-3, j-4
+
+User: Jeff He
+Tasks: i-1, i-2, i-3, m-2, m-5, n-1, o-1
+
+User: Nevin Wong
+Tasks: j-1, j-2, k-1, k-2, k-3, k-4
+
+User: David Huynh
+Tasks: l-1, l-2, m-3, m-4, m-6, m-7, n-2, n-3

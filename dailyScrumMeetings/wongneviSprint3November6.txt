@@ -1,0 +1,12 @@
+What did I work on in the last three days?
+    - finished the code for PopDirOntoStack command
+    - worked on Javadocumenting all the classes
+
+What do I plan to work in the next three days?
+    - make sure all possible errors are accounted for
+    - make sure all error messages are accurate and appropriate
+    - help out the others with testing and writing of code if they need
+    - Javadocument some more parts of the project
+
+Am I blocked on anything?
+    - how to test the most efficiently, are there any test cases we're missing

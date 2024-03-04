@@ -1,0 +1,14 @@
+Class name: ConcatenateFile
+Parent class (if any): ShellCommand
+Subclasses (if any): 
+
+Responsibilities:
+* Send to StdOut text content of files
+* Report errors if file is inaccessible
+* Provide a manual for how to use this class
+
+Collaborators:
+* StdOut
+* Directory
+* File
+* Path

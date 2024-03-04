@@ -1,0 +1,16 @@
+Class name: MakeDirectory
+Parent class (if any): ShellCommand
+Subclasses (if any): 
+
+Responsibilities:
+* Report errors if user makes directory in forbidden location
+* Know the current working directory 
+* Create a new directory with a user-specified name in the current working directory 
+* Be able to interpret a directory path 
+* Create a new directory with user-specified in a user-specified directory path 
+* Report an error if a directory exists with the same name
+* Provide a manual for how to use this class
+
+Collaborators:
+* Directory
+* Path

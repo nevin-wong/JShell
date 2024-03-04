@@ -1,0 +1,10 @@
+What did I work on in the last three days?
+    - Fixed issues with Search
+    - Created JUnit test cases for Directory, MakeDirectory, ConcatenateFile, PrintHistory,
+    Search, ClientURL, ChangeDirectory
+
+What do I plan to work in the next three days?
+    - survey
+
+Am I blocked on anything?
+    - nothing at the moment

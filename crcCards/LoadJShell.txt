@@ -1,0 +1,12 @@
+Class name: LoadJShell
+Parent class (if any): ShellCommand
+Subclasses (if any): 
+
+Responsibilities:
+* Reinitialize a previous JShell
+* Disallow this command to be used if any other command is executed
+* Provide a manual for how to use this class
+* Report errors to be printed by the shell
+
+Collaborators:
+* JShell

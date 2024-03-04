@@ -1,0 +1,16 @@
+What did I work on in the last three days?
+    - wrote CRC card for Manual class and updated every class CRC card to include providing its manual as well
+    - wrote getManual methods for half the commands
+    - wrote base code for Manual class, it can now take in one parameter (a command) and print to the shell its manual
+    - formatted various class files to not follow the Google Code Style for Eclipse
+
+What do I plan to work in the next three days?
+    - finish getManual methods for all the commands
+    - allow the man command to take in multiple parameters instead of just one, I will use a while loop to make that happen
+    - work on PrintError class, come up with errors for all commands
+    - write base code for PrintError class
+
+Am I blocked on anything?
+    - is this the best way to store the manual strings, in a method?
+    - should printing to the shell and printing errors be treated differently, as with Unix they, are stdout and stderr? i.e., should I use the same method to print errors and command output?
+    - how to use a HashMap to call commands instead of a slew of if and else statements

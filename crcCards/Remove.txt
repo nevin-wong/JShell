@@ -1,0 +1,12 @@
+Class name: Remove
+Parent class (if any): ShellCommand
+Subclasses (if any): 
+
+Responsibilities:
+* Remove a specific Directory from the storage system
+* If the command cannot be carried out for any reason, report errors to be printed by the shell
+* Provide a manual for how to use this class
+
+Collaborators:
+* Directory
+* Storage

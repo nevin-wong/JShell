@@ -1,0 +1,10 @@
+a) What did I work on in the last three days?
+    - Added methods to file to allow appending and a getter for the contents
+	- Finished ls for cases when given a path, thus finishing ls
+	- Debugged ls, fixed bugs regarding using ls on files and invalid items
+
+b) What do I plan to work in the next three days?
+    - Starting the next sprints task and debugging ls more
+
+c) Am I blocked on anything?
+    - No

@@ -1,0 +1,12 @@
+a) What did I work on in the last three days?
+- Finished ls for the case where it is called with no parameters
+- Finished writing base code for the File class, with support for printing, appending and creating
+- Finished writing code for pwd
+- Added a getRootdir to JShell
+- Fixed bugs with ls
+
+b) What do I plan to work in the next three days?
+- As I am done with my tasks in the first sprint, I plan to work on newly assigned tasks in sprint 2
+
+c) Am I blocked on anything?  
+- Not at the moment

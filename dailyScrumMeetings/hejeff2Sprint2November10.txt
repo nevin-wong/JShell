@@ -1,0 +1,10 @@
+a) What did I work on in the last three days?
+    - Finished pop dir from stack
+	- Worked on a new Path class to parse paths that user inputs
+	- Updated CRC cards for various classes I wrote
+
+b) What do I plan to work in the next three days?
+    - Nothing in 2A, as it is due today
+
+c) Am I blocked on anything?
+    - No

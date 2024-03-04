@@ -1,0 +1,15 @@
+Class name: ListFiles
+Parent class (if any): ShellCommand
+Subclasses (if any): 
+
+Responsibilities:
+* Know the current working directory
+* Send to StdOut each separate file or directory within a given directory with a break line separating each one
+* Recursively list all Subdirectories in a Directory
+* Send to StdOut names of files
+* Provide a manual for how to use this class
+
+Collaborators:
+* Directory
+* StdOut
+* Path

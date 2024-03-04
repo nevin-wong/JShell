@@ -1,0 +1,10 @@
+What did I work on in the last three days?
+    - Tested commands for any cases we missed or bugs
+
+
+What do I plan to work in the next three days?
+    - plan for sprint2
+    - work on sprint2
+
+Am I blocked on anything?
+    - none at the moment

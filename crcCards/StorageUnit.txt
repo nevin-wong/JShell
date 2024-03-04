@@ -1,0 +1,9 @@
+Class name: StorageUnit
+Parent class (if any):
+Subclasses (if any): File, Directory
+
+Responsibilities:
+* Manage the structure of File and Directory
+* Checks for forbidden characters in a file/directory name
+
+Collaborators:

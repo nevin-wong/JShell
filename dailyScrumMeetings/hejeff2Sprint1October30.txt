@@ -1,0 +1,8 @@
+a) What did I work on in the last three days?
+-I worked on ls for the case where it is given a list of files/directories within the current directory
+
+b) What do I plan to work in the next three days?
+- I plan to complete ls for all cases and start adding methods required for echo in the file class
+
+c) Am I blocked on anything?  
+- Not at the moment

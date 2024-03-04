@@ -1,0 +1,11 @@
+Class name: Manual
+Parent class (if any): ShellCommand
+Subclasses (if any): 
+
+Responsibilities:
+* Send to StdOut certain manuals for any command (including this one)
+* Provide a manual for how to use this class
+* Report an error if the command given doesn't exist
+
+Collaborators:
+* StdOut

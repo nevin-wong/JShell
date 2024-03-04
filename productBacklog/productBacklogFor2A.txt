@@ -1,0 +1,21 @@
+User Stories                                                                                                                    Time Estimate
+
+As a user, I want to access a shell that's connected to a storage system.                                                       3 days
+As a user, I want the shell to be able to interpret my messages so it can manipulate the storage system.                        2 days
+As a user, I want the shell to be able to print messages to the screen.                                                         2 days
+As a user, I want the shell to print error messages whenever I cannot perform a desired task so I know what went wrong.         4 days
+As a user, I want to exit the shell when I am finished with it.                                                                 1 day
+As a user, I want to create new directories in storage, so I may use then for storage in the future.                            2 days
+As a user, I want to change the current directory of the shell to another, so I may work in the directory I desire.             2 days
+As a user, I want the shell to print the contents of the current directory.                                                     2 days
+As a user, I want the shell to print the contents of a directory to a given path, so I know what files are in it.               2 days
+As a user, I want the shell to print the current directory, so I know where I'm working in.                                     2 days	
+As a user, I want to save the current directory by pushing it onto the directory stack.                                         3 days
+As a user, I want to remove the top entry from the directory stack and make it the current directory.                           2 days
+As a user, I want to know the five most recent commands I have typed into the shell.                                            3 days	
+As a user, I want to be able to display the contents of a certain file.                                                         2 days
+As a user, I want to be able to display the contents of a certain file in storage concatenated with another file.               2 days
+As a user, I want to be able to echo a string onto the shell.                                                                   2 days
+As a user, I want to be able to echo a string overwriting file in storage, to write files quickly.                              2 days
+As a user, I want to be able to echo a string into the end of a file in storage, to append data to files quickly.               2 days
+As a user, I want the shell to print documentation for certain commands, so I know how to use them.                             2 days

@@ -1,0 +1,8 @@
+What did I work on in the last three days?
+    - finished mv and cp
+	- Added Javadoc for mv cp and TransferFile
+
+What do I plan to work in the next three days?
+	- JUnit testing for ls, mv , cp, rm , pwd, file, path, popd, transferfile
+Am I blocked on anything?
+  -no
